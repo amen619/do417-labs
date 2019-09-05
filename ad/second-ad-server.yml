@@ -1,0 +1,18 @@
+---
+- name:  Creating an additional AD controller
+  hosts: CHANGE_ME
+  vars:
+    domainname: CHANGE_ME
+    dnsname: CHANGE_ME
+    domain_admin: CHANGE_ME
+    safe_password: CHANGE_ME
+
+  tasks:
+
+    - name: CHANGE_ME
+      ANSIBLE_MODULE:
+        dns_domain_name: CHANGE_ME
+        domain_admin_user: CHANGE_ME
+        domain_admin_password: CHANGE_ME
+        safe_mode_password: CHANGE_ME
+        state: CHANGE_ME

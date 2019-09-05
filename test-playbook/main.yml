@@ -1,0 +1,6 @@
+---
+- name: Tests connectivity to Windows hosts
+  hosts: all
+  tasks:
+    - name: Ensure hosts are reachable
+      win_ping:
